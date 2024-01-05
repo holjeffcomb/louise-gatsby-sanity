@@ -14,7 +14,7 @@ const SideNav = () => {
     return (
         <SideNavStyles>
             <ul>
-                <li><Link to="/index">Home</Link></li>
+                <li><Link to="/">Homessss</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li>Blog</li>
                 <li>Schedule</li>
