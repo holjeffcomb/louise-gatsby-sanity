@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-louise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-louise",
+  "author": "Jeff",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
+    "gatsby": "^5.13.1",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-plugin-styled-components": "^6.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "gatsby-source-sanity": "^7.9.1",
+    "gatsby-transformer-sharp": "^5.13.0",
+    "prettier": "^3.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^6.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "typescript": "^5.1.6"
+  }
+}
