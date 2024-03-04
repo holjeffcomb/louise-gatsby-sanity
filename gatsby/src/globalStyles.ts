@@ -12,6 +12,13 @@ const GlobalStyles = createGlobalStyle`
     p {
         font-family: "Hepta Slab", serif;
     }
-`
+    
+    .title {
+        font-family: "Sacramento", Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+`;
 
-export default GlobalStyles
+export default GlobalStyles;

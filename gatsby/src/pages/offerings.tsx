@@ -36,7 +36,7 @@ const OfferingsPage: React.FC = () => {
   return (
     <>
       <Layout>
-        <p>THE OFFERINGS PAGE</p>
+        <h2 className="title">Offerings</h2>
         {offerings.map((offering, index) => (
           <Offering
             key={index}

@@ -1,14 +1,13 @@
 import React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Layout from "../Components/Layout";
-import GlobalStyles from "../globalStyles";
 import styled from "styled-components";
 
 const AboutPage: React.FC<PageProps> = () => {
   return (
     <>
       <Layout>
-        <p>THE ABOUT PAGE</p>
+        <h2 className="title">About Louise</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque

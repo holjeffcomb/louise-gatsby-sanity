@@ -3,3 +3,8 @@ export interface OfferingProps {
   description: string;
   difficulty: string;
 }
+
+export interface GalleryImageProps {
+  filename: string;
+  description: string;
+}

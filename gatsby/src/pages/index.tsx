@@ -1,7 +1,6 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import styled from "styled-components";
-import GlobalStyles from "../globalStyles";
 import Layout from "../Components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 
