@@ -4,17 +4,15 @@ import Footer from "./Footer";
 import GlobalStyles from "../globalStyles";
 import styled from "styled-components";
 
-const ContainerStyles = styled.div`
+const LayoutColumnStyles = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
 `;
 
 const MainStyles = styled.main`
   flex-grow: 1;
-  width: 50%;
-  max-width: 50%;
+  width: 100%;
   margin: auto;
 `;
 
@@ -27,11 +25,11 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <GlobalStyles />
-      <ContainerStyles>
+      <LayoutColumnStyles>
         <Header />
         <MainStyles>{children}</MainStyles>
         <Footer />
-      </ContainerStyles>
+      </LayoutColumnStyles>
     </>
   );
 };
