@@ -3,10 +3,19 @@ import styled from "styled-components";
 
 const FooterStyles = styled.footer`
   font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 2em;
 `;
 
 const Footer = () => {
-  return <p>THIS IS THE FOOTER</p>;
+  const year = new Date().getFullYear();
+
+  return (
+    <FooterStyles>
+      <p>&copy; {year} Louise Holcomb Yoga. All rights reserved.</p>
+    </FooterStyles>
+  );
 };
 
 export default Footer;
