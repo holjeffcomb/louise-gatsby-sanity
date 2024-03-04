@@ -1,7 +1,6 @@
 import React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Layout from "../Components/Layout";
-import styled from "styled-components";
 
 const AboutPage: React.FC<PageProps> = () => {
   return (

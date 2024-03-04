@@ -1,8 +1,6 @@
 import React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Layout from "../Components/Layout";
-import GlobalStyles from "../globalStyles";
-import styled from "styled-components";
 import Offering from "../Components/Offering";
 import { OfferingProps } from "../types";
 
