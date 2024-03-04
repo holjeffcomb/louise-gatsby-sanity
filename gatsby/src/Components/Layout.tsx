@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import SideNav from "./sidenav";
 import GlobalStyles from "../globalStyles";
 import styled from "styled-components";
 
@@ -19,7 +18,12 @@ const MainStyles = styled.main`
   margin: auto;
 `;
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children: React.ReactNode;
+  // Add other props here
+}
+
+const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <GlobalStyles />
