@@ -1,5 +1,5 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, HeadFC } from "gatsby";
 import { GalleryImageProps, QueryResult } from "../types";
 import Layout from "../Components/Layout";
 import GalleryImage from "../Components/GalleryImage";
@@ -51,3 +51,5 @@ const GalleryPage: React.FC = () => {
 };
 
 export default GalleryPage;
+
+export const Head: HeadFC = () => <title>Louise Holcomb Gallery</title>;

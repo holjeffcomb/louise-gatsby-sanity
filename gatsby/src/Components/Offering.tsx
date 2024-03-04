@@ -7,7 +7,7 @@ const ContainerStyles = styled.div`
   border-radius: 2em;
   padding-left: 4em;
   padding-right: 4em;
-  margin: 2em;
+  margin: 4em;
 `;
 
 const DifficultyStyles = styled.p`
