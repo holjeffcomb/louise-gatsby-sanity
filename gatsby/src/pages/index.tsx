@@ -3,12 +3,19 @@ import type { HeadFC, PageProps } from "gatsby";
 import styled from "styled-components";
 import GlobalStyles from "../globalStyles";
 import Layout from "../Components/Layout";
+import { StaticImage } from "gatsby-plugin-image";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <GlobalStyles />
       <Layout>
+        <StaticImage
+          src="../images/louise-desert-open.jpg" // Adjust the path to your image
+          alt="A photo of louise in a dry lake bed"
+          placeholder="blurred"
+          layout="fullWidth"
+          aspectRatio={16 / 7}
+        />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque

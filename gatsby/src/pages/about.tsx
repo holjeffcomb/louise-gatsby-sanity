@@ -4,16 +4,9 @@ import Layout from "../Components/Layout";
 import GlobalStyles from "../globalStyles";
 import styled from "styled-components";
 
-const Container = styled.div`
-  position: relative;
-  display: flex;
-  max-width: 100%;
-`;
-
 const AboutPage: React.FC<PageProps> = () => {
   return (
     <>
-      <GlobalStyles />
       <Layout>
         <p>THE ABOUT PAGE</p>
         <p>

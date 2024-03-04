@@ -1,15 +1,12 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const FooterStyles = styled.footer`
-    font-weight: bold;
-`
+  font-weight: bold;
+`;
 
 const Footer = () => {
-    return (
+  return <p>THIS IS THE FOOTER</p>;
+};
 
-        <p>THIS IS THE FOOTER</p>
-    )
-}
-
-export default Footer
+export default Footer;

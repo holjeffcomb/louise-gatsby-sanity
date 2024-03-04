@@ -13,8 +13,8 @@ const ContainerStyles = styled.div`
 
 const MainStyles = styled.main`
   flex-grow: 1;
-  width: 30%;
-  max-width: 30%;
+  width: 50%;
+  max-width: 50%;
   margin: auto;
 `;
 
