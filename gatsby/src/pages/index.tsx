@@ -14,6 +14,7 @@ const IndexPage: React.FC<PageProps> = () => {
           layout="fullWidth"
           aspectRatio={16 / 7}
         />
+        <h1 className="quote">Start your yoga journey today</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque

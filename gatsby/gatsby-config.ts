@@ -43,6 +43,10 @@ const config: GatsbyConfig = {
             name: `Sacramento`,
             file: `https://fonts.googleapis.com/css2?family=Kristi&family=Sacramento&display=swap`,
           },
+          {
+            name: `Homemade Apple`,
+            file: `https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap`,
+          },
         ],
       },
     },

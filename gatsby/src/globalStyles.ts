@@ -19,6 +19,13 @@ const GlobalStyles = createGlobalStyle`
         color: white;
         text-align: center;
     }
+
+    .quote {
+        font-family: "Homemade Apple", Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
 `;
 
 export default GlobalStyles;
