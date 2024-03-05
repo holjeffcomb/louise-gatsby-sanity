@@ -15,6 +15,7 @@ const ContainerStyles = styled.div`
   padding-left: 4em;
   padding-right: 4em;
   margin: auto;
+  margin-top: 1em;
   width: 80%;
 
   img {
