@@ -13,10 +13,6 @@ const ImageContainerStyles = styled.div`
 const GalleryPage: React.FC = () => {
   const images: GalleryImageProps[] = [
     {
-      filename: "louise-desert-open.jpg",
-      description: "Louise on a dry lake bed",
-    },
-    {
       filename: "alive.jpg",
       description: "Louise leading the Alive event",
     },
