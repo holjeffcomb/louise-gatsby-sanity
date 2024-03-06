@@ -11,6 +11,18 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Louise Holcomb Yoga",
+        short_name: "Louise Holcomb",
+        start_url: "/",
+        background_color: "#ffffff",
+        theme_color: "#663399",
+        display: "minimal-ui",
+        icon: "src/images/lotus-flower.png", // This path is relative to the root of the site.
+      },
+    },
+    {
       resolve: "gatsby-source-sanity",
       options: {
         projectId: "taye0pn2",
